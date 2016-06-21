@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Created by @snkrsnkampa
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GWX]
+"DisableGwx"=dword:00000001
