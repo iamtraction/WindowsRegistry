@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+;Created by @snkrsnkampa
+
+[-HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Copy To]
+ 
+[-HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Move To]
