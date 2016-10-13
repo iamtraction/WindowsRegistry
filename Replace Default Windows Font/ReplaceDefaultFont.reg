@@ -1,0 +1,27 @@
+Windows Registry Editor Version 5.00
+
+;Created by @snkrsnkampa
+;Change your default font in Windows OS.
+;Compatible with Windows 7, Windows 8/8.1, Windows 10
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]
+"Segoe UI (TrueType)"=""
+"Segoe UI (TrueType)"=""
+"Segoe UI Black (TrueType)"=""
+"Segoe UI Black Italic (TrueType)"=""
+"Segoe UI Bold (TrueType)"=""
+"Segoe UI Bold Italic (TrueType)"=""
+"Segoe UI Historic (TrueType)"=""
+"Segoe UI Italic (TrueType)"=""
+"Segoe UI Light (TrueType)"=""
+"Segoe UI Light Italic (TrueType)"=""
+"Segoe UI Semibold (TrueType)"=""
+"Segoe UI Semibold Italic (TrueType)"=""
+"Segoe UI Semilight (TrueType)"=""
+"Segoe UI Semilight Italic (TrueType)"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+"Segoe UI"="Your Font Name"
+
+;Replace "Your Font Name" with the font you would like to replace the default Windows font with.
+;NOTE: WRITE YOUR FONT NAME WITHIN DOUBLE QUOTES.
