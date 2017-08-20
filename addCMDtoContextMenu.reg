@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+;Adds a 'Open command window here' option to Shift+Right-Click context menu
+;Required for Windows 10 Creators Update, as Microsoft had replaced
+;command prompt with PowerShell in the context menu
+;Created by @k3rn31p4nic
+
+[HKEY_CLASSES_ROOT\Directory\shell\cmdprompt]
+@="@shell32.dll,-8506"
+"Extended"=""
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\cmdprompt\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmdprompt]
+@="@shell32.dll,-8506"
+"Extended"=""
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmdprompt\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\cmdprompt]
+@="@shell32.dll,-8506"
+"Extended"=""
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Drive\shell\cmdprompt\command]
+@="cmd.exe /s /k pushd \"%V\""
